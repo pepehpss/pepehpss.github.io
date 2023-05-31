@@ -1,0 +1,67 @@
+h1{
+    color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+#jogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#esq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+#dir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+#imgesq{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#imgdir{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.coluna{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+.fileira{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+#s22{
+    border: solid black 2px;
+}
+#s12,#s32{
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+#s21,#s23{
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+}
+#rei{
+    margin-top: 20px;
+}
